@@ -12,6 +12,6 @@ canvas {
   font-weight: 200;
   letter-spacing: 0.005em;
   color: #f1f1f1;
-  top: 3px;
-  bottom: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
