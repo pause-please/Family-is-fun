@@ -6,4 +6,12 @@ canvas {
   display: block;
 }
 
-.rightJS { background: #ffa900; }
+.rightJS { 
+  background: #ffa900; 
+  font-family: SF Display,Helvetica,Helvetica Neue,Roboto,Noto Sans KR,sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.005em;
+  color: #f1f1f1;
+  top: 3px;
+  bottom: 3px;
+}
