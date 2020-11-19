@@ -5,6 +5,27 @@ html, body {
 canvas {
   display: block;
 }
+
+body { 
+  margin: 0;
+  font-size: 30px;
+}
+
+.notice {
+    text-decoration: none;
+    color: #000;
+}
+
+.marquee {
+  height: 35px;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+  background-color: #003192;  
+  padding: 8px 0 4px 0;
+}
+
 .marquee div {
   display: inline-block;
   width: 300%;
@@ -16,13 +37,12 @@ canvas {
   animation: marquee 12s linear infinite;
 }
 
-.js-marquee div {
-  display: inline-block;
-  width: 300%;
-  height: 40px;
+.marquee span {
+  float: left;
+  width: 25%;
+}
 
-  position: absolute;
-  overflow: hidden;
-
-  animation: marquee 12s linear infinite;
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -150%; }
 }
