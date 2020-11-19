@@ -21,6 +21,13 @@ function setup() {
 
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+
+
+
 function draw() {
   if (mouseIsPressed) {
     var d = dist(x,y, mouseX,mouseY);
