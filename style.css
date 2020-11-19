@@ -6,37 +6,4 @@ canvas {
   display: block;
 }
 
-body { 
-  margin: 0;
-  font-size: 16px;
-  font-family: "Arial";
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.marquee {
-  height: 35px;
-  width: 100%;
-  position: fixed;
-  padding: 8px 0 4px 0;
-  border: none;
-}
-
-.marq{
-  background-color: #1D2088;
-  
-}
-
-
-.marquee span {
-  float: left;
-  width: 100%;
-}
-
-@keyframes marquee {
-  0% { left: 0; }
-  100% { left: -150%; }
-}
+.rightJS { background: #ffa900; }
