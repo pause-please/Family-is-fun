@@ -7,50 +7,9 @@ var counter = 0;
 
 
 
-
-remote console.loglink
-"landscape"
-remote console.loglink
-"correctedWidth=568, correctedHeight=320, w=568, h=320, displayWidth=320, displayHeight=568, window.innerWidth=568, window.innerHeight=320"
-
-window.onresize = function() {
-checkOrientation();
-};
-var checkOrientation = function() {
-var w = window.innerWidth;
-var h = window.innerHeight;
-var dw0 = displayWidth;
-var dh0 = displayHeight;
-var dw;
-var dh;
-if ( w > h ) {
-console.log('landscape');
-// due to bug displayWidth always shows the portrait width so double check the dw0/dh0
-if ( dw0 > dh0 ) {
-dw = dw0;
-dh = dh0;
-} else {
-dw = dh0;
-dh = dw0;
-}
-} else {
-console.log('portrait');
-if ( dw0 < dh0 ) {
-dw = dw0;
-dh = dh0;
-} else {
-dw = dh0;
-dh = dw0;
-}
-}
-console.log('correctedWidth='+dw+', correctedHeight='+dh+', w='+w+', h='+h+', displayWidth='+dw0+", displayHeight="+dh0+", window.innerWidth="+window.innerWidth+", window.innerHeight="+window.innerHeight);
-return {width:dw,height:dh};
-};
-
-
 function setup() {
-var displaySize = checkOrientation();
-createCanvas(displaySize.width, displaySize.height);  background(255);
+  createCanvas(displayWidth, displayHeight);
+  background(255);
   smooth();
   cursor(CROSS);
  
