@@ -8,6 +8,7 @@ var counter = 0;
 
 
 function setup() {
+  createCanvas(displayWidth, displayHeight);
   background(255);
   smooth();
   cursor(CROSS);
