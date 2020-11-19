@@ -1,6 +1,6 @@
 var x = 0, y = 0;
 var stepSize = 0.0;
-var letters = "Pause Please. Things you can see only when you pause. All inspiration comes from home. Ordinary life living it day by day like anyone else.";
+var letters = "Pause Please. →→→→→ Things you can see only when you pause. All inspiration comes from home. Ordinary life living it day by day like anyone else.";
 var fontSize = 30;
 var angleDistortion = 0.0;
 var counter = 0;
