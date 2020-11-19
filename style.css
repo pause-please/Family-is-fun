@@ -5,3 +5,13 @@ html, body {
 canvas {
   display: block;
 }
+.marquee div {
+  display: inline-block;
+  width: 300%;
+  height: 40px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 12s linear infinite;
+}
