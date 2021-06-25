@@ -3,7 +3,7 @@ var rightJS = {
   init: function(){
     rightJS.Tags = document.querySelectorAll('.rightJS');
     for(var i = 0; i < rightJS.Tags.length; i++){
-      rightJS.Tags[i].style.overflow = 'hidden';
+      rightJS.Tags[i].style.overflowX = 'hidden';
     }
     rightJS.Tags = document.querySelectorAll('.rightJS div');
     for(var i = 0; i < rightJS.Tags.length; i++){
