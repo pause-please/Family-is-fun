@@ -32,7 +32,7 @@ window.addEventListener('load',rightJS.init);
 
 var x = 0, y = 0;
 var stepSize = 0.0;
-var letters = "Pause Please. →→→→→ Ant Garden →→→→→ Small is beautiful. ☺☺☺ A study of lifestyle as if ants mattered. ☻☻☻   ";
+var letters = "Pause Please →→→→→ Ant Garden →→→→→ Small is beautiful. ☺☺☺ A study of lifestyle as if ants mattered. ☻☻☻   ";
 var fontSize = 30;
 var angleDistortion = 0.0;
 var counter = 0;
