@@ -4,14 +4,15 @@ html, body {
 }
 canvas {
   display: block;
+  overflow-x: hidden;
 }
 
 .rightJS { 
-  background: #61845f; 
+  background: #BB3521; 
   font-family: SF Display,Helvetica,Helvetica Neue,Roboto,Noto Sans KR,sans-serif;
   font-weight: 200;
   letter-spacing: 0.001em;
-  color: #f1f1f1;
+  color: #B4A729;
   padding-top: 10px;
   padding-bottom: 10px;
 }
