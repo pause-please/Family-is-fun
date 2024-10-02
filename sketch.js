@@ -32,7 +32,7 @@ window.addEventListener('load',rightJS.init);
 
 var x = 0, y = 0;
 var stepSize = 0.0;
-var letters = "Pause Please ♫♬♩♩♪ Family Is Fun ⌦⌦⌦⌦⌦ From the Beginning ℗℗ Don't Leave Decisions to Others. ☻☻☻   ";
+var letters = "℗℗ Pause Please ♫ ♬ ♪ Family Is Fun ☞☞☞☞☞ From the Beginning ℗℗ Don't Leave Decisions to Others. ☻☻☻   ";
 var fontSize = 30;
 var angleDistortion = 0.0;
 var counter = 0;
